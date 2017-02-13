@@ -23,5 +23,5 @@ li {
 }
 
 p.slogan {
-	text-transform: italic;
+	font-style: italic;
 }
