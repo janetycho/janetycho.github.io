@@ -4,21 +4,21 @@ body {
 
 h1 {
 	color: #7F7079;
-	font: helvetica;
+	font-family: sans-serif;
 }
 
 p {
 	color: #4C4349;
-	font: helvetica;
+	font-family: sans-serif;
 }
 ul {
 	color: #4C4349;
-	font: helvetica;
+	font-family: sans-serif;
 	margin-left: 20px;
 }
 li {
 	color: #4C4349;
-	font: helvetica;
+	font-family: sans-serif;
 	margin-left: 20px;
 }
 
