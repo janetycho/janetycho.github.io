@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Karla');
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+align-items: center;
+float: left;
+}
+
+#navlist {
+	font-family: 'Karla', sans-serif;
+	color: #FFFFFF;
+	list-style-type: none;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+    width: 30%;
+	text-align: center;
+	float: left;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-family: 'Francois One', sans-serif;
+	text-align: center;
+}
+
+article {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+    width: 100%;
+	text-align: center;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+p {
+	color: #4C4349;
+	font-family: 'Karla', sans-serif;
+}
+
+ul {
+	color: #4C4349;
+	font-family: 'Karla', sans-serif;
+
+}
+
+li {
+	font-family: 'Karla', sans-serif;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+    width: 100%;
+	text-align: center;
+ }
+
+footer {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+
+
