@@ -1,15 +1,27 @@
-* { margin:0; padding:0;box-sizing: border-box;}
 
 @import url('https://fonts.googleapis.com/css?family=Francois+One|Karla');
+* { margin:0; padding:0; box-sizing: border-box;}
 
 nav {
     background-color: #E8C66A;
     border: 1px black solid;
     padding: 20px 0px 20px 0px;
     width: 30%;
+    height: 100px;
     text-align: center;
 	align-items: center;
 	float: left;
+    font-family: 'Francois One', sans-serif;
+}
+
+a {
+    font-family: 'Francois One', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
 }
 
 header {
@@ -17,6 +29,7 @@ header {
     border: 1px black solid;
     padding: 20px 0px 20px 0px;
     width: 40%;
+    height: 100px;
 	text-align: center;
 	float: left;
 }
@@ -70,4 +83,33 @@ footer {
     clear: both;
 }
 
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
 
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 70%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 25%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
