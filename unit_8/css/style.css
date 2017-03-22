@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Karla');
+* { margin:0; padding:0; box-sizing: border-box;}
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 120%;
+    }
+    nav {
+        float: left;
+        display: block;
+    }
+}
+
+nav {
+    background-color: #white;
+    padding: 10px 0px 10px 0px;
+    width: 25%;
+    height: 100px;
+    text-align: center;
+	align-items: center;
+	float: left;
+    font-family: 'Francois One', sans-serif;
+    font-size: 1em;
+}
+
+a {
+    font-family: 'Francois One', sans-serif;
+    color: #B7E2D0;
+    text-decoration: none;
+    font-size: 1em;
+
+}
+
+a:hover {
+    color: #FFE2D0;
+}
+
+header {
+    background-color: #white;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    height: 100px;
+	text-align: center;
+	float: left;
+}
+
+h1 {
+	color: #7F7168;
+	font-family: 'Francois One', sans-serif;
+	text-align: center;
+    font-size: 2em;
+}
+
+h2 {
+    color: #7F7168;
+    font-family: 'Francois One', sans-serif;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: #7F7168;
+    font-family: 'Francois One', sans-serif;
+    text-align: left;
+    font-size: 1em;
+}
+
+article {
+    background-color: #FF957E;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+	text-align: center;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+p {
+	color: #4C4349;
+	font-family: 'Karla', sans-serif;
+}
+
+ul {
+	color: #4C4349;
+	font-family: 'Karla', sans-serif;
+}
+
+li {
+	font-family: 'Karla', sans-serif;
+}
+
+aside {
+    background-color: #FFC675;
+    padding: 10px;
+    width: 100%;
+	text-align: center;
+ }
+
+footer {
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+
+#top {
+    background-color: white;
+    padding: 0px;
+    align-content: center;
+    float: none;
+    width: 100%;
+}
+#toptext {
+    background-color: white;
+    padding: 10px 0 30px 70px;
+    align-content: left;
+    width: 70%
+}
+
+#thumbnails {
+    background-color: white;
+    padding: 0px;
+    float: none;   
+    width: 100%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
